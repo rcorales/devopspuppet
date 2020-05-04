@@ -3,7 +3,7 @@ package { 'mysql-server':
 }
 
 file { '/etc/mysql/mysql.cnf':
-  source  => '/root/devopspuppet/examples/files/mysql.cnf',
+#  source  => '/root/devopspuppet/examples/files/mysql.cnf',
   notify  => Service['mysql'],
   require => Package['mysql-server'],
 }
