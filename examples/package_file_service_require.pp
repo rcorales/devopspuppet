@@ -10,6 +10,6 @@ file { '/etc/mysql/mysql.cnf':
 
 service { 'mysql':
   ensure  => stopped,
-  enable  => true,
-  require => [Package['mysql-server'], File['/etc/mysql/mysql.cnf']],
+  enable  => false,
+  #require => [Package['mysql-server'], File['/etc/mysql/mysql.cnf']],
 }
