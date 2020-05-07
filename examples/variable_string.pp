@@ -1,5 +1,5 @@
 $php_package = 'php7.2-cli'
 
 package { $php_package:
-  ensure => present,
+  ensure => purged,
 }
