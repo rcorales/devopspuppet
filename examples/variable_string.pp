@@ -1,4 +1,4 @@
-$php_package = 'php7.2-cli'
+$php_package = 'latest'
 
 package { $php_package:
   ensure => installed,
