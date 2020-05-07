@@ -3,7 +3,7 @@ package { 'ntp':
 }
 
 service { 'ntp':
-  ensure    => running,
+  ensure    => stopped,
   enable    => true,
   hasstatus => false,
 }
