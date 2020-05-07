@@ -1,3 +1,3 @@
-user { 'godot':
+user { 'rcorales':
   ensure => absent,
 }
