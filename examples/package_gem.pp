@@ -1,8 +1,8 @@
 package { 'ruby':
-  ensure => absent,
+  ensure => present,
 }
 
 package { 'puppet-lint':
-  ensure   => absent,
+  ensure   => present,
   provider => gem,
 }
