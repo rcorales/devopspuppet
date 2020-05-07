@@ -1,8 +1,9 @@
-package { 'ruby':
+package { 'rubygems':
   ensure => present,
 }
 
 package { 'puppet-lint':
-  ensure   => present,
-  provider => gem,
+  ensure   => '1.1.0',
+  provider => 'gem',
+  require  => Package['rubygems'],
 }
