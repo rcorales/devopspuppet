@@ -1,4 +1,4 @@
-$php_package = 'php7.3-cli'
+$php_package = 'php7.2-cli'
 
 package { $php_package:
   ensure => installed,
