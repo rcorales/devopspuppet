@@ -1,8 +1,8 @@
 package { 'ruby':
-  ensure => installed,
+  ensure => absent,
 }
 
 package { 'puppet-lint':
-  ensure   => installed,
+  ensure   => absent,
   provider => gem,
 }
