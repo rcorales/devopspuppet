@@ -1,5 +1,5 @@
 $ami = 'ami-933105e8'
-$region = 'us-east-1'
+$region = 'us-east-2'
 
 ec2_securitygroup { 'pbg-sg':
   ensure      =>  present,
