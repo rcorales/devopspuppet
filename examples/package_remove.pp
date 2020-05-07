@@ -1,7 +1,4 @@
 package { 'apparmor':
-  ensure => present,
+  ensure => purged,
 }
-service { 'apparmor':
-  ensure  => running,
-  enable  => true,
-}
+
