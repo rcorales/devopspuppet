@@ -1,3 +1,3 @@
 package { 'apparmor':
-  ensure => purged,
+  ensure => present,
 }
